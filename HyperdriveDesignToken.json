@@ -125,6 +125,10 @@
         "value": "#7685A3",
         "type": "color"
       },
+      "Gray50-0%": {
+        "value": "#7685A300",
+        "type": "color"
+      },
       "Gray60": {
         "value": "#5E6A82",
         "type": "color"
@@ -173,6 +177,10 @@
       },
       "Blue50": {
         "value": "#415FFF",
+        "type": "color"
+      },
+      "Blue50-40%": {
+        "value": "#415FFF40",
         "type": "color"
       },
       "Blue60": {
@@ -646,7 +654,7 @@
       "type": "borderWidth"
     },
     "System": {
-      "emptybox": {
+      "$emptybox": {
         "value": "#00FFF000",
         "type": "color"
       }
@@ -656,6 +664,16 @@
         "value": "underline",
         "type": "textDecoration"
       }
+    },
+    "text": {
+      "$textGlobalWhite": {
+        "value": "{Black&White.White}",
+        "type": "color"
+      }
+    },
+    "$borderRadius": {
+      "value": "4",
+      "type": "borderRadius"
     }
   },
   "Dark": {
@@ -715,6 +733,38 @@
       "$listHover": {
         "value": "linear-gradient(90deg, {Grayscale.Gray85-0%} 0%, {Grayscale.Gray85} 50%, {Grayscale.Gray85-0%} 100%)",
         "type": "color"
+      },
+      "$listHover-01": {
+        "value": "linear-gradient(90deg, {Grayscale.Gray85-0%} 0%, {Grayscale.Gray90} 50%, {Grayscale.Gray85-0%} 100%)",
+        "type": "color"
+      },
+      "$textLoading": {
+        "value": "linear-gradient(90deg, {Grayscale.Gray85} 0%, {Grayscale.Gray85-0%} 100%)",
+        "type": "color"
+      },
+      "$textLoading-02": {
+        "value": "linear-gradient(90deg, {Grayscale.Gray90} 0%, {Grayscale.Gray95} 100%)",
+        "type": "color"
+      },
+      "$mainuiHover": {
+        "value": "linear-gradient(90deg, {Grayscale.Gray50} 0%, {Grayscale.Gray50-0%} 100%)",
+        "type": "color"
+      },
+      "$mainuiHoverReverse": {
+        "value": "linear-gradient(90deg, {Grayscale.Gray50-0%} 0%, {Grayscale.Gray50} 100%)",
+        "type": "color"
+      },
+      "$btnPrimary": {
+        "value": "{Blue.Blue50}",
+        "type": "color"
+      },
+      "$primaryGradient": {
+        "value": "linear-gradient(60deg, {Blue.Blue30} 0%, {Blue.Blue50} 100%)",
+        "type": "color"
+      },
+      "$btnPrimaryDisalbed": {
+        "value": "{Blue.Blue50-40%}",
+        "type": "color"
       }
     },
     "Identity": {
@@ -732,6 +782,18 @@
       },
       "$icon": {
         "value": "{Black&White.White}",
+        "type": "color"
+      },
+      "$icon-01": {
+        "value": "{Grayscale.Gray10}",
+        "type": "color"
+      },
+      "$icon-03": {
+        "value": "{Grayscale.Gray40}",
+        "type": "color"
+      },
+      "$icon-04": {
+        "value": "{Grayscale.Gray60}",
         "type": "color"
       }
     },
@@ -754,6 +816,10 @@
       },
       "$text-04": {
         "value": "{Grayscale.Gray60}",
+        "type": "color"
+      },
+      "$textPrimary": {
+        "value": "{Blue.Blue20}",
         "type": "color"
       }
     }
@@ -854,6 +920,10 @@
       },
       "$text-04": {
         "value": "{Grayscale.Gray40}",
+        "type": "color"
+      },
+      "$textPrimary": {
+        "value": "{Blue.Blue40}",
         "type": "color"
       }
     }
