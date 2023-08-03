@@ -158,6 +158,24 @@
         "type": "color"
       }
     },
+    "Gray-transparent": {
+      "GTrans-04": {
+        "value": "#47506280",
+        "type": "color"
+      },
+      "GTrans-03": {
+        "value": "#47506260",
+        "type": "color"
+      },
+      "GTrans-02": {
+        "value": "#47506240",
+        "type": "color"
+      },
+      "GTrans-01": {
+        "value": "#47506220",
+        "type": "color"
+      }
+    },
     "Blue": {
       "Blue10": {
         "value": "#D9DFFF",
@@ -180,7 +198,7 @@
         "type": "color"
       },
       "Blue50-40%": {
-        "value": "#415FFF40",
+        "value": "#415FFF66",
         "type": "color"
       },
       "Blue60": {
@@ -259,8 +277,8 @@
         "value": "#FF5B51",
         "type": "color"
       },
-      "Red50-20%": {
-        "value": "#FF5B5120",
+      "Red50-25%": {
+        "value": "#FF5B5140",
         "type": "color"
       },
       "Red60": {
@@ -301,8 +319,8 @@
         "value": "#42CF83",
         "type": "color"
       },
-      "Green50-20%": {
-        "value": "#42CF8320",
+      "Green50-25%": {
+        "value": "#42cf8340",
         "type": "color"
       },
       "Green60": {
@@ -580,8 +598,8 @@
         "value": "#FFB81E",
         "type": "color"
       },
-      "Yellow50-20%": {
-        "value": "#FFB81E20",
+      "Yellow50-25%": {
+        "value": "#FFB81E40",
         "type": "color"
       },
       "Yellow60": {
@@ -607,7 +625,7 @@
         "type": "color"
       },
       "$successPress": {
-        "value": "{Green.Green50-20%}",
+        "value": "{Green.Green50-25%}",
         "type": "color"
       },
       "$warning": {
@@ -615,7 +633,7 @@
         "type": "color"
       },
       "$warningPress": {
-        "value": "{Yellow.Yellow50-20%}",
+        "value": "{Yellow.Yellow50-25%}",
         "type": "color"
       },
       "$error": {
@@ -623,7 +641,7 @@
         "type": "color"
       },
       "$errorPress": {
-        "value": "{Red.Red50-20%}",
+        "value": "{Red.Red50-25%}",
         "type": "color"
       }
     },
@@ -651,6 +669,10 @@
     },
     "$borderWidth-03": {
       "value": "2",
+      "type": "borderWidth"
+    },
+    "$borderWidth-04": {
+      "value": "4",
       "type": "borderWidth"
     },
     "System": {
@@ -714,6 +736,10 @@
         "value": "{Grayscale.Gray80}",
         "type": "color"
       },
+      "$line": {
+        "value": "{Grayscale.Gray90}",
+        "type": "color"
+      },
       "$line-01": {
         "value": "{Grayscale.Gray80}",
         "type": "color"
@@ -758,12 +784,20 @@
         "value": "{Blue.Blue50}",
         "type": "color"
       },
+      "$btnGtrans": {
+        "value": "{Gray-transparent.GTrans-04}",
+        "type": "color"
+      },
+      "$btnPrimaryDisabled": {
+        "value": "{Blue.Blue50-40%}",
+        "type": "color"
+      },
       "$primaryGradient": {
         "value": "linear-gradient(60deg, {Blue.Blue30} 0%, {Blue.Blue50} 100%)",
         "type": "color"
       },
-      "$btnPrimaryDisalbed": {
-        "value": "{Blue.Blue50-40%}",
+      "$uiScrim": {
+        "value": "#00000066",
         "type": "color"
       }
     },
@@ -819,6 +853,10 @@
         "type": "color"
       },
       "$textPrimary": {
+        "value": "{Blue.Blue30}",
+        "type": "color"
+      },
+      "$textMenuPrimary": {
         "value": "{Blue.Blue20}",
         "type": "color"
       }
