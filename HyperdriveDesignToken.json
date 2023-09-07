@@ -160,19 +160,19 @@
     },
     "Gray-transparent": {
       "GTrans-04": {
-        "value": "#47506280",
+        "value": "#475062cc",
         "type": "color"
       },
       "GTrans-03": {
-        "value": "#47506260",
+        "value": "#47506299",
         "type": "color"
       },
       "GTrans-02": {
-        "value": "#47506240",
+        "value": "#47506266",
         "type": "color"
       },
       "GTrans-01": {
-        "value": "#47506220",
+        "value": "#47506233",
         "type": "color"
       }
     },
@@ -281,6 +281,10 @@
         "value": "#FF5B5140",
         "type": "color"
       },
+      "Red50-10%": {
+        "value": "#FF5B5119",
+        "type": "color"
+      },
       "Red60": {
         "value": "#CC4941",
         "type": "color"
@@ -321,6 +325,10 @@
       },
       "Green50-25%": {
         "value": "#42cf8340",
+        "type": "color"
+      },
+      "Green50-10%": {
+        "value": "#42cf8319",
         "type": "color"
       },
       "Green60": {
@@ -519,6 +527,17 @@
         },
         "type": "typography"
       },
+      "$body-long": {
+        "value": {
+          "fontFamily": "SUIT",
+          "fontWeight": "Medium",
+          "lineHeight": "18",
+          "fontSize": "12",
+          "letterSpacing": "-2%",
+          "paragraphSpacing": "6"
+        },
+        "type": "typography"
+      },
       "$caption-01": {
         "value": {
           "fontFamily": "SUIT",
@@ -570,7 +589,6 @@
           "fontFamily": "D2Coding ligature",
           "lineHeight": "Auto",
           "fontSize": "12",
-          "letterSpacing": "0",
           "paragraphSpacing": "6",
           "fontWeight": "Regular"
         },
@@ -679,6 +697,10 @@
       "$emptybox": {
         "value": "#00FFF000",
         "type": "color"
+      },
+      "scroll": {
+        "value": "#00FFF040",
+        "type": "color"
       }
     },
     "TextDecoration": {
@@ -764,12 +786,24 @@
         "value": "linear-gradient(90deg, {Grayscale.Gray85-0%} 0%, {Grayscale.Gray90} 50%, {Grayscale.Gray85-0%} 100%)",
         "type": "color"
       },
+      "$listHover-primary": {
+        "value": "linear-gradient(100deg, {Grayscale.Gray95} 0%, {Grayscale.Gray95} 45%, {Blue.Blue50-40%} 100%)",
+        "type": "color"
+      },
+      "$listHover-primary-02": {
+        "value": "linear-gradient(100deg, {Grayscale.Gray90} 0%, {Grayscale.Gray90} 45%, {Blue.Blue50-40%} 100%)",
+        "type": "color"
+      },
       "$textLoading": {
         "value": "linear-gradient(90deg, {Grayscale.Gray85} 0%, {Grayscale.Gray85-0%} 100%)",
         "type": "color"
       },
       "$textLoading-02": {
         "value": "linear-gradient(90deg, {Grayscale.Gray90} 0%, {Grayscale.Gray95} 100%)",
+        "type": "color"
+      },
+      "$mainuiHover_Vertical": {
+        "value": "linear-gradient(180deg, {Gray-transparent.GTrans-04} 0%, {Grayscale.Gray50-0%} 100%)",
         "type": "color"
       },
       "$mainuiHover": {
@@ -785,7 +819,7 @@
         "type": "color"
       },
       "$btnGtrans": {
-        "value": "{Gray-transparent.GTrans-04}",
+        "value": "{Gray-transparent.GTrans-03}",
         "type": "color"
       },
       "$btnPrimaryDisabled": {
@@ -794,6 +828,14 @@
       },
       "$primaryGradient": {
         "value": "linear-gradient(60deg, {Blue.Blue30} 0%, {Blue.Blue50} 100%)",
+        "type": "color"
+      },
+      "$grayGradient": {
+        "value": "linear-gradient(135deg, {Grayscale.Gray70} 0%, {Grayscale.Gray85-0%} 100%)",
+        "type": "color"
+      },
+      "$tertiaryGradient": {
+        "value": "linear-gradient(60deg, {Purple.Purple50} 0%, {Blue.Blue50} 100%)",
         "type": "color"
       },
       "$uiScrim": {
