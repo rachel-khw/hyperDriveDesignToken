@@ -849,7 +849,7 @@
         "type": "color"
       },
       "$secondaryPress": {
-        "value": "{Grayscale.Gray90}",
+        "value": "{Grayscale.Gray85}",
         "type": "color"
       },
       "$tertiaryPress": {
